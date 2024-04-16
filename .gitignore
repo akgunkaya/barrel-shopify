@@ -7,3 +7,5 @@ jscs.js
 jshint.js
 config.yml
 temp
+.env
+venv
