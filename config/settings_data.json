@@ -32,6 +32,22 @@
     "checkout_logo": "",
     "checkout_use_body_background_image": false,
     "checkout_use_sidebar_background_image": false,
+    "sections": {
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "title": "Maple Never Tasted So Good",
+          "text": "<p>We blend this bourbon with natural smoked maple flavors for a unique, smoky sweetness. Full bodied, inviting maple notes that lift to smoke and are complemented with rich vanilla caramel. Smoked hickory and maple wood, with hints of earthy grains.<\/p>",
+          "background_image": "shopify:\/\/shop_images\/www.knobcreek.com-1293609732325191.jpg",
+          "foreground_image": "shopify:\/\/shop_images\/www.knobcreek.com-1310894113736742_e175f6a4-dc08-497f-b7a3-0c80085131a1.png"
+        }
+      },
+      "two-up": {
+        "type": "two-up",
+        "settings": {
+        }
+      }
+    },
     "content_for_index": [
 
     ]
