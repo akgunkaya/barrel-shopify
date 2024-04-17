@@ -65,6 +65,8 @@
   --f-weight-normal: 400;
   --f-weight-bold: 600;
   --f-small: 13px;
+  --f-7xl: 72px;  
+  --lh-7xl: 76px;  
 }
 
 /* Breakpoint Queries */

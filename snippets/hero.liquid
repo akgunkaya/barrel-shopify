@@ -1,0 +1,14 @@
+{% assign section_settings = section.settings %}
+
+
+<div class="hero" style="background-image:url('{{section_settings.background_image | img_url:'master'}}');">
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>{{section_settings.title}}</h1>
+            <p>{{section_settings.text}}</p>
+        </div>
+        <div class="hero-image">
+            <img src="{{section_settings.foreground_image | img_url:'master'}}" alt="Knob Creek">
+        </div>
+    </div>
+</div>
