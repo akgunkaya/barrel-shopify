@@ -73,7 +73,7 @@
     .two-up-section .card-container {
         flex-direction: column;                   
         align-items: center;  
-        margin-top: -100px;        
+        margin-top: -200px;        
         height: auto;
     }
     .two-up-section .card-container .meta-container {
@@ -87,4 +87,10 @@
     .two-up-section .card-container .meta-container {
         width: 100%;
     }    
+}
+
+@media (--max-xxs) {
+    .two-up-section .card-container  {
+        margin-top: -100px;
+    }
 }

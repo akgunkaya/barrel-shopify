@@ -68,9 +68,13 @@
   --f-xl: 20px;  
   --lh-xl: 28px;   
   --f-3xl: 30px;  
-  --lh-3xl: 36px;    
+  --lh-3xl: 36px; 
+  --f-4xl: 36px;  
+  --lh-4xl: 40px;    
+  --f-6xl: 60px;  
+  --lh-6xl: 1;      
   --f-7xl: 72px;  
-  --lh-7xl: 76px;  
+  --lh-7xl: 1;  
 }
 
 /* Breakpoint Queries */
