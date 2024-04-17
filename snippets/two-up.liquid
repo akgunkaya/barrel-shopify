@@ -1,0 +1,22 @@
+<section class="two-up-section">
+    {% for article in blogs['news'].articles limit: 1 %}
+        <div class="card-container">
+            <div class="image-container">
+                <img
+                    src="{{ article.image | img_url: 'large', crop: 'center' }}"
+                    srcset="{{ srcset }}"
+                    sizes="auto" 
+                    alt="{{ article.title }}">        
+            </div>
+            <div class="meta-container">
+                <a href="#">
+                    <div>{% include 'post-icon' %}</div>
+                    <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: '%B %d' }}</time>
+                    <h3>{{ article.title }}</h3>
+                    <p>{{ article.content | strip_html | truncatewords: 40 }}</p> 
+                    <span class="read-more">Read More</span>             
+                </a>
+            </div>            
+        </div>        
+    {% endfor %}
+</section>

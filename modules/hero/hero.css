@@ -44,6 +44,10 @@
     zoom: 1.1;
 }
 
+.hero-image img {
+    max-width: 100%;
+}
+
 @media (--ml) {
     .hero-container {
         padding: 40px;
